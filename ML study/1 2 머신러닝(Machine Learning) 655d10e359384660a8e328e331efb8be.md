@@ -101,7 +101,7 @@ $$y = \beta_0 + \beta_1x_1 +\beta_2x_2 +.... +\epsilon$$
 
 ex) 사망 0 생존 1 로 분류 같은 예측을 할때 선형회귀를 쓸 수 없다. 이때는 로지스틱 회귀를 사용해 해결가능
 
-[https://t1.daumcdn.net/cfile/tistory/99F325485C7B76BC2B](https://t1.daumcdn.net/cfile/tistory/99F325485C7B76BC2B)
+![https://t1.daumcdn.net/cfile/tistory/99F325485C7B76BC2B](https://t1.daumcdn.net/cfile/tistory/99F325485C7B76BC2B)
 
 이때는 Odds라는 개념을 사용
 
@@ -193,7 +193,7 @@ SVM은 예측 성능이무척 좋지만 결정해야할 하이퍼파라미터들
 
 새로운 데이터가 입력되었을 때, 가장 가까운 데이터 k개를 이용해서 해당 데이터를 유추하는 모델이다.
 
-[https://lh3.googleusercontent.com/proxy/gA-L6GC1Urvc_pvCd6CDTqNBzOXus23jeUApqxhKRFWfvOnXsqD78URZFhfXlCbl0T7zJB8a19rZaaMRJMMQ4YK3JHa2yHVWUqoWF-R4RjzH4aYjTTxRMORsGRwn6doEQwMEnkX9qPo-I0htstglqMbaMEhjx1-ZPWFJUfe-sCbrYvEtfZrE3V2FnAyYwPrbpovQWI5-U21LkppwdAZsVX2UKbUtoB4rv2KdqXgkDyciinL7Uq0nwbE0U7shsU3cWT7l-3yI2E1FfyhawEcNBfGhy2T3T3k](https://lh3.googleusercontent.com/proxy/gA-L6GC1Urvc_pvCd6CDTqNBzOXus23jeUApqxhKRFWfvOnXsqD78URZFhfXlCbl0T7zJB8a19rZaaMRJMMQ4YK3JHa2yHVWUqoWF-R4RjzH4aYjTTxRMORsGRwn6doEQwMEnkX9qPo-I0htstglqMbaMEhjx1-ZPWFJUfe-sCbrYvEtfZrE3V2FnAyYwPrbpovQWI5-U21LkppwdAZsVX2UKbUtoB4rv2KdqXgkDyciinL7Uq0nwbE0U7shsU3cWT7l-3yI2E1FfyhawEcNBfGhy2T3T3k)
+![https://lh3.googleusercontent.com/proxy/gA-L6GC1Urvc_pvCd6CDTqNBzOXus23jeUApqxhKRFWfvOnXsqD78URZFhfXlCbl0T7zJB8a19rZaaMRJMMQ4YK3JHa2yHVWUqoWF-R4RjzH4aYjTTxRMORsGRwn6doEQwMEnkX9qPo-I0htstglqMbaMEhjx1-ZPWFJUfe-sCbrYvEtfZrE3V2FnAyYwPrbpovQWI5-U21LkppwdAZsVX2UKbUtoB4rv2KdqXgkDyciinL7Uq0nwbE0U7shsU3cWT7l-3yI2E1FfyhawEcNBfGhy2T3T3k](https://lh3.googleusercontent.com/proxy/gA-L6GC1Urvc_pvCd6CDTqNBzOXus23jeUApqxhKRFWfvOnXsqD78URZFhfXlCbl0T7zJB8a19rZaaMRJMMQ4YK3JHa2yHVWUqoWF-R4RjzH4aYjTTxRMORsGRwn6doEQwMEnkX9qPo-I0htstglqMbaMEhjx1-ZPWFJUfe-sCbrYvEtfZrE3V2FnAyYwPrbpovQWI5-U21LkppwdAZsVX2UKbUtoB4rv2KdqXgkDyciinL7Uq0nwbE0U7shsU3cWT7l-3yI2E1FfyhawEcNBfGhy2T3T3k)
 
 위 그림만 봐도 이해가 딱 될 거 같은데 A를 1,2,3,4 중 하나로 정해야 된다고 한다. 그럼 뭘로 정할 것인가?
 
@@ -229,7 +229,7 @@ k가 너무 크면 주변 데이터를 고려하는 의미가 사라지게 된�
     - 처음 모델이 예측을 하면 거기에 가중치가 부여되고 이것을 다음 모델에 영향을 준다.
     - 잘못 분류된 데이터에 집중해서 새로운 분류 규칙을 만드는데 반복한다.
     
-    [https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkCejr%2FbtqyghvqEZB%2F9o3rKTEsuSIDHEfelYFJlk%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkCejr%2FbtqyghvqEZB%2F9o3rKTEsuSIDHEfelYFJlk%2Fimg.png)
+    ![https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkCejr%2FbtqyghvqEZB%2F9o3rKTEsuSIDHEfelYFJlk%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkCejr%2FbtqyghvqEZB%2F9o3rKTEsuSIDHEfelYFJlk%2Fimg.png)
     
     - D1에서는 세 가지의 오분류가 일어났다. 잘못 분류된 데이터의 가중치를 높여줬다.
     - 그 결과 D2에서 잘 분류된건 크기를 줄였고 잘못 분류한건 키웠다.
