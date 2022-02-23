@@ -1,0 +1,153 @@
+rank,title,points,counries,days,isoriginal
+1,Squid Game,"57,980",90,104,YES
+2,Money Heist,"44,382",91,364,YES
+3,Lupin,"42,690",83,256,YES
+4,Sex/Life,"34,609",82,141,YES
+5,Bridgerton,"33,973",82,146,YES
+6,New Amsterdam,"33,561",75,255,No
+7,Lucifer,"32,230",80,212,YES
+8,Who Killed Sara?,"30,363",79,88,YES
+9,Yo soy Betty la fea,"29,271",17,364,No
+10,Maid,"29,008",88,90,YES
+11,Ginny & Georgia,"28,496",78,112,YES
+12,The Good Doctor,"27,654",55,233,No
+13,You,"23,940",90,87,YES
+14,"Pablo Escobar, The Drug Lord","22,309",18,349,No
+15,Vincenzo,"20,307",56,308,YES
+16,Paw Patrol,"20,019",53,364,No
+17,Sex Education,"19,667",83,98,YES
+18,Riverdale,"18,915",60,226,No
+19,Pasión de gavilanes,"17,714",16,308,No
+20,Behind Her Eyes,"17,409",80,73,YES
+21,Arcane,"16,660",89,54,YES
+22,Friends,"16,539",41,359,No
+23,Shadow and Bone,"16,403",82,55,YES
+24,Snowpiercer,"15,699",74,98,YES
+25,Sweet Tooth,"15,457",82,40,YES
+26,Hometown Cha-Cha-Cha,"15,210",52,124,YES
+27,CoComelon,"14,981",34,364,No
+28,Firefly Lane,"14,682",77,44,YES
+29,Elite,"14,208",77,75,YES
+30,Outer Banks,"14,109",72,46,YES
+31,The Witcher,"14,055",89,236,YES
+32,The Serpent,"13,846",75,104,YES
+33,Sexify,"12,865",78,50,YES
+34,Fate: The Winx Saga,"12,570",82,40,YES
+35,The Blacklist,"12,054",57,333,No
+36,Clickbait,"12,010",80,43,YES
+37,El inocente,"11,843",76,55,YES
+38,Too Hot to Handle,"11,584",74,67,YES
+39,Dynasty,"11,091",78,137,YES
+40,Never Have I Ever,"11,035",79,48,YES
+41,Virgin River,"10,939",75,62,YES
+42,Jupiter's Legacy,"10,782",81,26,YES
+43,Nuevo Rico Nuevo Pobre,"10,502",17,208,No
+44,The Queen of Flow,"10,485",28,172,YES
+45,Rick and Morty,"10,456",41,156,No
+46,The Queen's Gambit,"10,317",76,198,YES
+47,Hit & Run,"10,271",79,49,YES
+48,The King's Affection,"10,171",55,79,YES
+49,Hellbound,"9,931",90,34,YES
+50,My Name,"9,726",86,65,YES
+51,Narcos: Mexico,"9,134",81,47,YES
+52,The Irregulars,"8,959",82,35,YES
+53,Vikings,"8,929",67,224,No
+54,Lost in Space,"8,837",87,29,YES
+55,Cobra Kai,"8,830",77,59,YES
+56,Good Girls,"8,542",72,71,YES
+57,Jurassic World: Camp Cretaceous,"8,131",83,83,YES
+58,The Five Juanas,"8,110",72,59,No
+59,100 Dias Para Enamorarnos,"8,071",17,125,No
+60,The Snitch Cartel: Origins,"7,815",16,86,YES
+61,The Bold Type,"7,715",57,180,No
+62,The Circle,"7,708",55,74,YES
+63,Locke & Key,"7,584",84,45,YES
+64,Brooklyn Nine-Nine,"7,578",60,262,No
+65,Ragnarok,"7,540",79,42,YES
+66,Titans,"7,320",82,22,YES
+67,Nevertheless,"7,235",44,105,YES
+68,Hospital Playlist,"7,105",16,227,YES
+69,The Cook of Castamar,"7,006",66,133,YES
+70,The Cook of Castamar,"7,006",66,133,YES
+71,Demon Slayer: Kimetsu no Yaiba,"6,866",63,259,No
+72,The One,"6,824",71,36,YES
+73,Emily in Paris,"6,735",90,25,YES
+74,Sky Rojo,"6,472",61,78,YES
+75,Alice in Borderland,"6,458",70,62,YES
+76,Crime Scene: The Vanishing at the Cecil Hotel,"6,240",79,21,YES
+77,StartUp,"5,978",62,59,No
+78,Turning Point: 9/11 and the War on Terror,"5,915",70,25,YES
+79,Kastanjemanden,"5,834",56,88,YES
+80,Formula 1: Drive to Survive,"5,818",70,49,YES
+81,Madre solo hay dos,"5,682",34,55,YES
+82,Chilling Adventures of Sabrina,"5,664",76,21,YES
+83,Sisyphus: The Myth,"5,633",32,90,YES
+84,The Crown,"5,607",53,145,YES
+85,Luis Miguel: The Series,"5,345",18,77,YES
+86,AlRawabi School for Girls,"5,259",36,62,YES
+87,Superstore,"5,239",33,184,No
+88,Gabby's Dollhouse,"5,208",53,202,YES
+89,The Office,"5,025",32,189,No
+90,Falsa Identidad,"4,965",19,166,No
+91,True Story,"4,907",76,26,YES
+92,Cowboy Bebop,"4,871",74,24,YES
+93,Midnight Mass,"4,860",79,31,YES
+94,The 100,"4,783",49,177,No
+95,"Love, Death & Robots","4,588",81,57,YES
+96,Tribes of Europa,"4,546",80,24,YES
+97,The Uncanny Counter,"4,300",21,82,No
+98,Pokémon Journeys,"4,185",62,85,YES
+99,Attack on Titan,"3,997",11,141,No
+100,Selling Sunset,"3,919",58,29,YES
+101,Age of Samurai: Battle for Japan,"3,850",81,16,YES
+102,Atypical,"3,813",71,25,YES
+103,Mine,"3,732",26,94,No
+104,Record of Ragnarok,"3,707",76,25,YES
+105,Tale of the Nine Tailed,"3,580",21,59,No
+106,Law School,"3,532",16,74,YES
+107,Modern Family,"3,525",46,227,No
+108,Maya and the Three,"3,491",78,29,YES
+109,The Seven Deadly Sins,"3,451",69,109,YES
+110,Katla,"3,448",66,47,YES
+111,Disenchantment,"3,383",64,28,YES
+112,Resurrection: Ertugrul,"3,187",8,311,No
+113,My Hero Academia,"3,017",23,209,No
+114,Jujutsu Kaisen,"3,013",12,235,No
+115,Miraculous: Tales of Ladybug & Cat Noir,"2,961",38,144,No
+116,Bling Empire,"2,955",53,36,YES
+117,Valeria,"2,953",43,45,YES
+118,Control Z,"2,948",35,30,YES
+119,"Acero, Woman of Steel","2,932",18,130,No
+120,How to Become a Tyrant,"2,866",55,44,YES
+121,S.W.A.T.,"2,814",15,63,No
+122,Top Secret UFO Projects: Declassified,"2,779",66,23,YES
+123,The Chair,"2,759",61,19,YES
+124,Love Marriage Divorce,"2,639",11,122,YES
+125,Love Marriage Divorce,"2,639",11,122,YES
+126,The Walking Dead,"2,624",49,97,No
+127,Spycraft,"2,580",52,21,YES
+128,Too Hot to Handle: Brazil,"2,571",42,33,YES
+129,Deadly Class,"2,500",26,27,No
+130,Night Stalker: The Hunt For a Serial Killer,"2,449",53,20,YES
+131,The Lost Pirate Kingdom,"2,432",73,14,YES
+132,Snabba Cash,"2,412",30,71,YES
+133,Run On,"2,359",32,73,No
+134,Go Dog Go,"2,297",48,29,YES
+135,Selena: The Series,"2,238",20,41,YES
+136,Elite Short Stories: Carla Samuel,"2,229",53,14,YES
+137,Girl from Nowhere,"2,220",13,63,YES
+138,Tiny Pretty Things,"2,196",57,33,YES
+139,Capitani,"2,120",49,64,YES
+140,The Sons of Sam: A Descent Into Darkness,"2,108",49,17,YES
+141,Love Alarm,"2,068",56,22,YES
+142,Halston,"2,015",47,18,YES
+143,RuPaul's Drag Race,"2,005",25,74,No
+144,Castlevania,"1,957",67,20,YES
+145,Workin' Moms,"1,924",47,18,YES
+146,Attenborough's Life in Colour,"1,908",51,13,YES
+147,Crash Landing on You,"1,891",9,180,YES
+148,Fatma,"1,680",44,47,YES
+149,Sweet Home,"1,656",22,50,YES
+150,Outlander,"1,642",22,104,No
+151,Beauty and the Baker,"1,638",18,28,No
+152,Zero Chill,"1,631",49,20,YES
