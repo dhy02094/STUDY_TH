@@ -38,7 +38,7 @@ cycle Gan, UGATIT 같은 GAN 방식은 소위 unsupervised image-to-image transl
 
 논문의 구조와는 좀 다르게 중요한 부분 순서로 가보겠다.
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvXlZl%2FbtqYbIBtsmR%2FOtEJweMsF5kfVltONPDBJ0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvXlZl%2FbtqYbIBtsmR%2FOtEJweMsF5kfVltONPDBJ0%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FvXlZl%2FbtqYbIBtsmR%2FOtEJweMsF5kfVltONPDBJ0%2Fimg.png'>
 
 다음은 논문 구조이다. 
 
@@ -60,7 +60,7 @@ generator는 말 그대로 이미지를 생성하는 부분이다. 기본적으�
 
 수식으로 다시 보자.
 
-![Untitled](%5B%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%5D%20U-GAT-IT(GAN)%201abcccf3ec4c42fcad9e24920d093c6b/Untitled.png)
+<img src = "https://github.com/dhy02094/STUDY_TH/blob/master/논문/%5B논문%20리뷰%5D%20U-GAT-IT(GAN)/Untitled.png?raw=true">
 
 이렇게 해서 큰 값이 나온 feature 위주로 보게 되는것이다. 해당 논문에서 수많은 결과들을 봤을 때 눈 변환이 가장 심했다. 따라서 아마 눈이 가장 큰 값이 였을 것이다.
 
@@ -68,7 +68,7 @@ generator는 말 그대로 이미지를 생성하는 부분이다. 기본적으�
 
 그 다음 AdaLIN으로 정규화 시킨다.
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcuxHwo%2FbtqYiDloKBp%2Fs5kbzNB6kmsLOudW0lxba1%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcuxHwo%2FbtqYiDloKBp%2Fs5kbzNB6kmsLOudW0lxba1%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcuxHwo%2FbtqYiDloKBp%2Fs5kbzNB6kmsLOudW0lxba1%2Fimg.png'>
 
 여기서 $\mu_I, \mu_L$  그리고 $\sigma_I, \sigma_L$은 각각 channel-wise, layer-wise 평균과 표준 편차이다. 
 
@@ -90,13 +90,13 @@ generator에 비해 별거 없다 똑같이 encoder과정으로 이미지의 특
 
 ### 1) Adversarial loss
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbytr0O%2FbtqYhyxXqBs%2FpAgbK3iMUTb0GaGK6GC9A0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbytr0O%2FbtqYhyxXqBs%2FpAgbK3iMUTb0GaGK6GC9A0%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbytr0O%2FbtqYhyxXqBs%2FpAgbK3iMUTb0GaGK6GC9A0%2Fimg.png'>
 
 - Least Squares GAN 로스식이라고 한다.
 
 ### 2) Cycle loss
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBK4PA%2FbtqX6f7L04M%2FqO8Z9zDH3GD67mgIrkQli0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBK4PA%2FbtqX6f7L04M%2FqO8Z9zDH3GD67mgIrkQli0%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdBK4PA%2FbtqX6f7L04M%2FqO8Z9zDH3GD67mgIrkQli0%2Fimg.png'>
 
 - 계속 똑같은 이미지를 만들어내는 Mode collapse문제를 완하시키기위해 적용했다고 한다.
 - 이미지 X가 주어졌을 때, $X_s$→$X_t$→$X_s$ 로 순차적으로 돌고 이미지는 원래의 도메인으로 변환된다.
@@ -105,7 +105,7 @@ generator에 비해 별거 없다 똑같이 encoder과정으로 이미지의 특
 
 Input 이미지와 Output 이미지의 컬러가 균형을 맞출수 있도록 다음 식을 적용했다.
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcTuAgl%2FbtqYgHvbtPK%2FKk94KeIR00zUHLNe5P39k0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcTuAgl%2FbtqYgHvbtPK%2FKk94KeIR00zUHLNe5P39k0%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcTuAgl%2FbtqYgHvbtPK%2FKk94KeIR00zUHLNe5P39k0%2Fimg.png'>
 
 ### 4) CAM loss
 
@@ -113,11 +113,11 @@ Input 이미지와 Output 이미지의 컬러가 균형을 맞출수 있도록 �
 
 이름처럼 개선해야하는 위치와 현재 상태에서 두 개의 도메인이 어떤 차이를 갖는지 확인해주는 로스 이다.
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcJG6SJ%2FbtqYkaXEtmf%2Fb6sDzeFvKx09zOQpcXtXJ0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcJG6SJ%2FbtqYkaXEtmf%2Fb6sDzeFvKx09zOQpcXtXJ0%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcJG6SJ%2FbtqYkaXEtmf%2Fb6sDzeFvKx09zOQpcXtXJ0%2Fimg.png'>
 
 ### 마무리 : Full objective
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcLhJ5g%2FbtqYecCnMOg%2FfWpoPlEdgcJSKIw1CMXNA1%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcLhJ5g%2FbtqYecCnMOg%2FfWpoPlEdgcJSKIw1CMXNA1%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcLhJ5g%2FbtqYecCnMOg%2FfWpoPlEdgcJSKIw1CMXNA1%2Fimg.png'>
 
 결국 위 로스를 모두 다 합쳐서 최적화 시켜서 위에 있는 모든 모델 구조를 다 학습시킨다.
 
@@ -129,7 +129,7 @@ Input 이미지와 Output 이미지의 컬러가 균형을 맞출수 있도록 �
 
 결과는 다음과 같다
 
-[https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FX21h2%2FbtqYxo2usdL%2FrN8SK7FOhNLM3hYXhmBJt0%2Fimg.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FX21h2%2FbtqYxo2usdL%2FrN8SK7FOhNLM3hYXhmBJt0%2Fimg.png)
+<img src = 'https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FX21h2%2FbtqYxo2usdL%2FrN8SK7FOhNLM3hYXhmBJt0%2Fimg.png'>
 
 다음에서 보면 알수 있듯이 확실히 cam이 들어갔다고 압도적으로 성능이 좋아졌다.
 
@@ -137,7 +137,7 @@ Input 이미지와 Output 이미지의 컬러가 균형을 맞출수 있도록 �
 
 처음 써보는 논문리뷰고... 다른 블로거들을 많이 참고해서 많이 부족하고 가독성도 떨어지겠지만 점점 더 발전해가면서 다음에 더 실력이 성장하면 누구나 잘 이해하고 도움을 얻어 갈 수 있는 논문 리뷰를 작성하겠다.
 
-![620FA3FD-6541-449F-AA58-5EDF33CF86A8.png](%5B%E1%84%82%E1%85%A9%E1%86%AB%E1%84%86%E1%85%AE%E1%86%AB%20%E1%84%85%E1%85%B5%E1%84%87%E1%85%B2%5D%20U-GAT-IT(GAN)%201abcccf3ec4c42fcad9e24920d093c6b/620FA3FD-6541-449F-AA58-5EDF33CF86A8.png)
+<img src = 'https://github.com/dhy02094/STUDY_TH/blob/master/논문/%5B논문%20리뷰%5D%20U-GAT-IT(GAN)/620FA3FD-6541-449F-AA58-5EDF33CF86A8.png?raw=true'>
 
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ
 
